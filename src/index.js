@@ -1,7 +1,5 @@
-const express = require('express')
 const awilix = require('awilix')
-const { Lifetime, InjectionMode } = awilix
-
+const express = require('express')
 const config = require('./utils/config')('app.config.js')
 
 const awilixConfigAutoRegistration = require('./utils/awilixConfigAutoRegistration')
