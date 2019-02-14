@@ -1,0 +1,17 @@
+{
+  "name": "@padcom/awilix-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "pm2-dev start src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^4.2.0",
+    "deepmerge": "^3.1.0",
+    "express": "^4.16.4",
+    "pm2": "^3.2.9"
+  }
+}
